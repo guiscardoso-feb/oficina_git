@@ -3,7 +3,7 @@ name: Exemplo
 on:
   push:
     branches:
-      - '*'
+      - 'master'
 
 jobs:
   simple-jobs:
