@@ -1,0 +1,14 @@
+name: Exemplo
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  simple-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print message
+      run: echo "Hello World"
